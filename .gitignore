@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.idea/
+.vscode/
+
+# Generated data and run artifacts; commit selected screenshots under images/.
+data/*.csv
+models/*.joblib
+outputs/*
+!outputs/.gitkeep
+!outputs/README.md
